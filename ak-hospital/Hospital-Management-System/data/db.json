@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "username": "admin",
+      "password": "0e6fc0f78e86d53ae02897b40fd1e006847aee38519acf16c6c53ff908b99271",
+      "salt": "static",
+      "name": "Administrator",
+      "role": "admin"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d-1",
+      "name": "Dr. Sarah Mitchell",
+      "specialization": "Cardiology",
+      "phone": "555-0101",
+      "email": "s.mitchell@medcare.org",
+      "availableDays": "Mon, Wed, Fri",
+      "status": "Active"
+    },
+    {
+      "id": "d-2",
+      "name": "Dr. James Okafor",
+      "specialization": "Orthopedics",
+      "phone": "555-0102",
+      "email": "j.okafor@medcare.org",
+      "availableDays": "Tue, Thu",
+      "status": "Active"
+    },
+    {
+      "id": "d-3",
+      "name": "Dr. Priya Nair",
+      "specialization": "Pediatrics",
+      "phone": "555-0103",
+      "email": "p.nair@medcare.org",
+      "availableDays": "Mon-Fri",
+      "status": "Active"
+    }
+  ],
+  "patients": [
+    {
+      "id": "p-1",
+      "name": "John Carter",
+      "age": 34,
+      "gender": "Male",
+      "phone": "555-2001",
+      "email": "john.carter@example.com",
+      "address": "12 Elm Street",
+      "bloodGroup": "O+",
+      "admissionStatus": "Outpatient",
+      "createdAt": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "p-2",
+      "name": "Maria Gomez",
+      "age": 58,
+      "gender": "Female",
+      "phone": "555-2002",
+      "email": "maria.gomez@example.com",
+      "address": "48 Oak Avenue",
+      "bloodGroup": "A-",
+      "admissionStatus": "Admitted",
+      "createdAt": "2026-06-10T09:00:00.000Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "a-1",
+      "patientId": "p-1",
+      "doctorId": "d-1",
+      "date": "2026-07-20",
+      "time": "10:00",
+      "reason": "Routine heart checkup",
+      "status": "Scheduled"
+    },
+    {
+      "id": "a-2",
+      "patientId": "p-2",
+      "doctorId": "d-2",
+      "date": "2026-07-15",
+      "time": "14:30",
+      "reason": "Knee pain follow-up",
+      "status": "Completed"
+    }
+  ]
+}
